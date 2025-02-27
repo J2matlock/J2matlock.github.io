@@ -38,6 +38,19 @@ function loadAllStudyGuideSections() {
         window.loadProfessionalResponsibilities();
     }
     
+    // Load the new sections
+    if (typeof window.loadChildDevelopment === 'function') {
+        window.loadChildDevelopment();
+    }
+    
+    if (typeof window.loadSocialCasework === 'function') {
+        window.loadSocialCasework();
+    }
+    
+    if (typeof window.loadInterviewingTechniques === 'function') {
+        window.loadInterviewingTechniques();
+    }
+    
     if (typeof window.loadExamPreparation === 'function') {
         window.loadExamPreparation();
     }

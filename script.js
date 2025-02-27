@@ -59,6 +59,9 @@ function initStudyGuide() {
                 <li><a href="#transitions-title">Transitions</a></li>
                 <li><a href="#documentation-title">Documentation</a></li>
                 <li><a href="#professional-responsibilities-title">Professional Responsibilities</a></li>
+                <li><a href="#child-development-title">Child Development</a></li>
+                <li><a href="#social-casework-title">Social Casework</a></li>
+                <li><a href="#interviewing-techniques-title">Interviewing Techniques</a></li>
                 <li><a href="#exam-preparation-title">Exam Preparation</a></li>
                 <li><a href="#key-terms-title">Key Terms & Definitions</a></li>
             </ul>
@@ -75,6 +78,9 @@ function initStudyGuide() {
             <section id="transitions" class="guide-section"></section>
             <section id="documentation" class="guide-section"></section>
             <section id="professional-responsibilities" class="guide-section"></section>
+            <section id="child-development" class="guide-section"></section>
+            <section id="social-casework" class="guide-section"></section>
+            <section id="interviewing-techniques" class="guide-section"></section>
             <section id="exam-preparation" class="guide-section"></section>
             <section id="key-terms" class="guide-section"></section>
         </div>
