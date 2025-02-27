@@ -465,3 +465,47 @@ footer {
         margin-bottom: 0.5rem;
     }
 }
+
+/* Additional Tests Links Section */
+.additional-tests {
+    margin: 1.5rem 0;
+    padding: 0.5rem;
+    text-align: center;
+}
+
+.additional-tests p {
+    margin: 0.5rem 0;
+}
+
+.additional-tests a {
+    display: inline-block;
+    background-color: var(--accent-color);
+    color: white;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 1.1rem;
+    padding: 0.8rem 1.5rem;
+    border-radius: 30px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+    transition: all 0.3s ease;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    border: 2px solid var(--accent-color);
+}
+
+.additional-tests a:hover {
+    background-color: white;
+    color: var(--accent-color);
+    transform: translateY(-3px);
+    box-shadow: 0 6px 12px rgba(0,0,0,0.15);
+}
+
+.additional-tests a .button-icon {
+    display: inline-block;
+    margin-left: 8px;
+    transition: transform 0.3s ease;
+}
+
+.additional-tests a:hover .button-icon {
+    transform: translateX(4px);
+}
